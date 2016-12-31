@@ -1,4 +1,3 @@
-N INIT INFO
 # Provides:          vncserver
 # Required-Start:    networking
 # Default-Start:     S
