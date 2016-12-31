@@ -1,2 +1,3 @@
 # vncserver
-/etc/init.d/vncserver
+chmod +x /etc/init.d/vncserver
+update-rc.d vncserver defaults
