@@ -1,9 +1,13 @@
-# Provides:          vncserver
-# Required-Start:    networking
-# Default-Start:     S
-# Default-Stop:      0 6
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides: vncserver
+# Required-Start:
+# Required-Stop:
+# Default-Start:    2 3 4 5
+# Default-Stop:     0 1 6
+# Short-Description:    vncserver
+# Description:          vncserver
 ### END INIT INFO
-
 PATH="$PATH:/usr/X11R6/bin/"
 
 # The Username:Group that will run VNC
