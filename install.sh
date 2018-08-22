@@ -5,3 +5,4 @@ cd /etc/init.d/
 wget https://raw.githubusercontent.com/xxooxxooxx/vncserver/master/vncserver && chmod +x vncserver
 systemctl daemon-reload
 systemctl enable vncserver
+vncserver
